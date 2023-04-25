@@ -63,6 +63,9 @@ fun multiples(){
         else if (x%6==0){
             println("$x is multiple of 6")
         }
+        else {
+            null
+        }
 
     }
 }
