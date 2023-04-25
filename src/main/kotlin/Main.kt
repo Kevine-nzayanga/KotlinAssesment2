@@ -25,13 +25,8 @@ fun returnin(word:String): List<Any> {
     var long= word.length
       var vowe= arrayOf('a', 'e','i','o','u')
     var doe= first in vowe
-   if (first in vowe){
-        var does= true
-        println(does)
-        }
-    else{
-        println("Doesnt start with vowel")
-    }
+
+    
     var answer= listOf<Any>(first, last,long,doe)
 
     return answer
